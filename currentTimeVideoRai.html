@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Javascript com HTML</title>
+    <script language="Javascript">
+        let nome = "Rai"
+
+        document.write("<span style='color:#ff0000;font-size:30px'>Javascript com HTML</span><br>");
+        document.write("<span style='color:#FF851B;font-size:20px'>Primeira aula, olá " + nome + "</span><br>");
+
+            // alert("Opaaaa");
+    </script>
+</head>
+
+<body>
+    <div class="banner">
+        <video id="teste" autoplay muted loop="true" currentTime ontimeupdate="a(currentTime)" width="1200" height="800">
+            <source src="_midia/galio.mp4" type="video/mp4">
+        </video>
+
+        <script>
+            function a(event) {
+                status = true;
+                if (event >= 1.912293 && event <= 1.999999 && status) {
+                    alert('LIBERAR BOTOES');
+                    status = false;
+                }
+            }
+        </script>
+    </div>
+</body>
+
+</html>

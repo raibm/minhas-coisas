@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/disableautofill/src/jquery.disableAutoFill.min.js"></script>
+    <title>Plugin Estranho para gente esquisita</title>
+</head>
+
+<body>
+    <input type="text" name="password" class="password">
+    <script>
+        $(function () {
+            $('.login-form').disableAutoFill({
+                passwordField: '.password'
+            });
+        });
+    </script>
+
+</body>
+
+</html>
